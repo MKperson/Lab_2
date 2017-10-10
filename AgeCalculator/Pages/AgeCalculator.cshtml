@@ -1,0 +1,38 @@
+﻿@page
+@model AgeCalculatorModel
+@using AgeCalculator.Pages
+@namespace AgeCalculator
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Age Calculator</title>
+    </head>
+    <body>
+        <h1>Age Calculator</h1>
+        <label>Please enter Your Birthday <i>ex.MM-DD-YYYY</i></label>
+        <form method="post">
+            <p>
+                <label>Birthday:</label>
+                <input size="1" type="text" name="Month" /><label>-</label>
+                <input size="1" type="text" name="Day" /><label>-</label>
+                <input size="1" type="text" name="Year" />
+            </p>
+            <input type="hidden" name="number1" value=0 />
+            <input type="hidden" name="number2" value=0 />
+            <p>
+                <input type="submit" value="Check" />
+            </p>
+            <p>
+            @Model.Result
+               <br />
+                <a href="Index">Home</a>
+            </p>
+            
+        </form>
+    </body>
+</html>
