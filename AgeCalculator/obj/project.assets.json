@@ -12542,11 +12542,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "K:\\295N\\Lab_1\\AgeCalculator\\AgeCalculator.csproj",
+      "projectUniqueName": "C:\\Users\\michael\\Source\\Repos\\Lab_2\\AgeCalculator\\AgeCalculator.csproj",
       "projectName": "AgeCalculator",
-      "projectPath": "K:\\295N\\Lab_1\\AgeCalculator\\AgeCalculator.csproj",
+      "projectPath": "C:\\Users\\michael\\Source\\Repos\\Lab_2\\AgeCalculator\\AgeCalculator.csproj",
       "packagesPath": "C:\\Users\\michael\\.nuget\\packages\\",
-      "outputPath": "K:\\295N\\Lab_1\\AgeCalculator\\obj\\",
+      "outputPath": "C:\\Users\\michael\\Source\\Repos\\Lab_2\\AgeCalculator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
